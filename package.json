@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mzgs/playup/blob/master/package.json"
+    "url": "https://github.com/mzgs/playup"
   },
   "keywords": [
     "android",
@@ -26,12 +26,12 @@
     "mobile",
     "apk"
   ],
-  "author": "Jeduan Cornejo <jeduan@gmail.com>",
+  "author": "Jeduan Cornejo <mblx1627@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mzgs/playup/blob/master/package.json/issues"
+    "url": "https://github.com/mzgs/playup"
   },
-  "homepage": "https://github.com/mzgs/playup/blob/master/package.json",
+  "homepage": "https://github.com/mzgs/playup",
   "dependencies": {
     "debug": "^2.1.3",
     "googleapis": "^2.0.2",
