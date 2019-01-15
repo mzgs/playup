@@ -8,9 +8,9 @@
   },
   "scripts": {
     "prepublish": "npm run build && npm prune",
-    "build": "babel src --modules common --out-dir lib",
-    "build-debug": "babel src --modules common --out-dir lib --source-maps inline",
-    "watch": "babel src --watch --modules common --out-dir lib --source-maps true",
+    "build": "babel src --modules common --out-dir src",
+    "build-debug": "babel src --modules common --out-dir src --source-maps inline",
+    "watch": "babel src --watch --modules common --out-dir src --source-maps true",
     "test": "standard && tap test/*.js",
     "test-lcov": "standard &&  tap --coverage-report=lcov --coverage test/*.js"
   },
