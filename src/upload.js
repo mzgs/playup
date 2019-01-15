@@ -94,6 +94,7 @@ export default class Upload {
           }
         }, (err, upload) => {
           if (err) return rejectApk(err)
+          versionCodes = []
           debug('> Uploaded %s with version code %d and SHA1 %s', apk, upload.versionCode, upload.binary.sha1)
           versionCodes.push(upload.versionCode)
           done()
